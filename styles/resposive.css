@@ -1,0 +1,193 @@
+@media only screen and (max-width: 600px) {
+    /* global */
+    .sectionMargin{
+        margin: 20px 16px;
+    }
+  
+    .sectionPadding{
+        padding: 20px 16px;
+    }
+
+    /* body */
+    body{
+        margin: 0px 0px;
+    }
+
+    /* header */
+    .header{
+        border-bottom: 0.5px solid orange;
+        padding: 0px 16px;
+        margin: 0px 0px;
+    }
+
+    .header i{
+        display: block;
+        font-size: 30px;
+    }
+
+    .container{
+        margin: 12px 0px;
+    }
+    .logo h1{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    #contact{
+        display: none;
+    }
+
+
+    /* Empowering */
+    .empCon{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .empW{
+        margin: 0;
+        text-align: center;
+    }
+
+    .empH1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .empP{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 18px 0px;
+    }
+
+    .empImg img{
+        max-width: 350px;
+        width: auto;
+        height: auto;
+        margin: 0px 0px;
+    }
+
+    .empBtn{
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    /* standard */
+    .standard{
+        gap: 20px;
+    }
+    .sta{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .staCards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+    .btns{
+        display: none;
+    }
+
+    /* stories */
+    .stories{
+        gap: 20px;
+        background-image:url('../assets/bg.png'),linear-gradient(to top, rgba(254, 163, 1, 0.3),white, #ffffff);
+    }
+
+    .big{
+        display: none;
+    }
+
+    .storyCon{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 12px;
+    }
+
+    .small{
+        gap:12px;
+    }
+
+    .small h3{
+        margin-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .small button{
+        font-family: 10px;
+        padding: 7px 14px;
+    }
+
+    .sml{
+        display: block;
+    }
+
+    .stBtn{
+        font-size: 16px;
+        padding: 9px 44px;
+    }
+
+    /* footer */
+    .footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ftCon{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ft1,.ft2,.ft3{
+        width: 100%;
+    }
+
+    .ft1 h3{
+        font-size: 36px;
+    }
+
+    .ft1 p{
+        font-size: 16px;
+    }
+
+    .ft2{
+        gap: 20px;
+    }
+
+    .ft2 h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .ft2 li{
+        gap: 7px;
+        font-size: 16px;
+    }
+
+    .ft3{
+        font-size: 22px;
+    }
+
+    /* Marquee */
+    .marquee{
+        font-size: 13px;
+        height: 20px;
+    }
+
+    .marquee p{
+        line-height: 20px;
+    }
+}
